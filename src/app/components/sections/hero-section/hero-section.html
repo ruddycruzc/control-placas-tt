@@ -1,1 +1,41 @@
-<p>hero-section works!</p>
+<section
+  class="hero-section"
+  [style.background-image]="
+    'linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url(' +
+    hero.backgroundImage +
+    ')'
+  ">
+
+  <div class="hero-section__container">
+
+    <div class="hero-section__content">
+
+      <h1>
+
+        {{ hero.titleLineOne }}
+
+        <br>
+
+        {{ hero.titleLineTwo }}
+
+        <br>
+
+        <span class="text-pink">
+
+          {{ hero.highlightedWord }}
+
+        </span>
+
+      </h1>
+
+      <button>
+
+        {{ hero.buttonLabel }}
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>

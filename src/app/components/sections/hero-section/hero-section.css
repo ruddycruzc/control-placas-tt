@@ -1,0 +1,72 @@
+.hero-section {
+
+  min-height: 100vh;
+
+  background-size: cover;
+
+  background-position: center;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.hero-section__container {
+
+  width: 100%;
+
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  padding:
+    var(--space-2xl)
+    var(--space-lg);
+}
+
+.hero-section__content {
+
+  max-width: 600px;
+}
+
+.hero-section h1 {
+
+  color: white;
+
+  font-size:
+    clamp(
+      4rem,
+      8vw,
+      7rem
+    );
+
+  line-height: .95;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+.text-pink {
+
+  color:
+    var(--color-primary);
+}
+
+.hero-section button {
+
+  margin-top:
+    var(--space-xl);
+
+  padding:
+    1rem 3rem;
+
+  background:
+    var(--color-white);
+
+  border: none;
+
+  cursor: pointer;
+
+  font-weight: 700;
+}
