@@ -1,0 +1,22 @@
+.feature-card img {
+
+  width: 100%;
+
+  display: block;
+
+  aspect-ratio: 1;
+
+  object-fit: cover;
+}
+
+.feature-card h3 {
+
+  color: white;
+
+  margin-top:
+    var(--space-md);
+
+  font-size: 1rem;
+
+  letter-spacing: 2px;
+}

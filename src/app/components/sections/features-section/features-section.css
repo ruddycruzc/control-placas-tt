@@ -1,0 +1,59 @@
+.features-section {
+
+  background: #000;
+
+  padding:
+    6rem
+    2rem;
+
+}
+
+.features-section__container {
+
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+.features-section h2 {
+
+  color: white;
+
+  font-size:
+    clamp(
+      2.5rem,
+      5vw,
+      4rem
+    );
+
+  margin-bottom: 4rem;
+}
+
+.text-pink {
+
+  color:
+    var(--color-primary);
+}
+
+.features-section__grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      1fr
+    );
+
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+
+  .features-section__grid {
+
+    grid-template-columns:
+      1fr;
+  }
+
+}
