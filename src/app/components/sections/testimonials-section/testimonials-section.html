@@ -1,1 +1,23 @@
-<p>testimonials-section works!</p>
+<section class="testimonials-section">
+
+  <div class="testimonials-section__container">
+
+    <div class="testimonials-section__grid">
+
+      @for (
+        testimonial of testimonials;
+        track testimonial.author
+      ) {
+
+        <app-testimonial-card
+          [quote]="testimonial.quote"
+          [author]="testimonial.author">
+        </app-testimonial-card>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>
