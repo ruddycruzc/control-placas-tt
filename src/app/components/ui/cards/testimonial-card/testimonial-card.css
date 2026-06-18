@@ -7,7 +7,6 @@
   border-radius:
     var(--radius-lg);
 
-  height: 100%;
 }
 
 .testimonial-card__quote {

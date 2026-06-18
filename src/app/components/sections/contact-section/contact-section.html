@@ -1,1 +1,46 @@
-<p>contact-section works!</p>
+<section class="contact-section">
+
+  <div class="contact-section__container">
+
+    <div class="contact-section__content">
+
+      <h2>
+
+        {{ content.title }}
+
+      </h2>
+
+      <p>
+
+        {{ content.description }}
+
+      </p>
+
+    </div>
+
+    <form class="contact-form">
+
+      <input
+        type="text"
+        placeholder="Name">
+
+      <input
+        type="email"
+        placeholder="Email">
+
+      <textarea
+        rows="5"
+        placeholder="Message">
+      </textarea>
+
+      <button type="submit">
+
+        {{ content.buttonLabel }}
+
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
