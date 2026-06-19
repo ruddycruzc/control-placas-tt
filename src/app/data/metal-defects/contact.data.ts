@@ -1,15 +1,11 @@
-import { ContactContent }
-from '../../interfaces/data/contact-content.interface';
+import { ContactContent } from "../../interfaces/data/contact-content.interface";
 
 export const CONTACT_CONTENT: ContactContent = {
-
-  title:
-    'READY TO GIVE US A TRY?',
-
+  titleLineOne: '¿Hablamos de',
+  titleHighlight: 'Control de placas metálicas?',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod.',
-
-  buttonLabel:
-    'SUBMIT'
-
+    'Contacta con nuestro equipo para resolver dudas.',
+  email: 'hello@jornadalaboral.com',
+  office:
+    'Gijón Impulsa Quinta la Vega, Cam. Viejo Musel, 246, Gijon-Oeste, 33299 Gijón, Asturias'
 };
