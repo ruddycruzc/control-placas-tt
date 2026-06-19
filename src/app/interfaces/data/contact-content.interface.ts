@@ -1,9 +1,7 @@
 export interface ContactContent {
-
-  title: string;
-
+  titleLineOne: string;
+  titleHighlight: string;
   description: string;
-
-  buttonLabel: string;
-
+  email: string;
+  office: string;
 }

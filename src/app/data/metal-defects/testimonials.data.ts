@@ -1,30 +1,16 @@
-import { Testimonial }
-from '../../interfaces/data/testimonial.interface';
+import { Testimonial } from '../../interfaces/data/testimonial.interface';
 
 export const TESTIMONIALS: Testimonial[] = [
-
   {
-    quote:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-
-    author:
-      'John Doe'
+    quote: 'El mejor servicio que he recibido, totalmente recomendado.',
+    author: 'Ana García'
   },
-
   {
-    quote:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-
-    author:
-      'John Doe'
+    quote: 'Una experiencia increíble, superaron todas mis expectativas.',
+    author: 'Carlos Ruiz'
   },
-
   {
-    quote:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-
-    author:
-      'John Doe'
+    quote: 'Profesionalismo y calidad en cada detalle.',
+    author: 'Elena Martínez'
   }
-
 ];
